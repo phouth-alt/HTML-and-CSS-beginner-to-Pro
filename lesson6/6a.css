@@ -1,0 +1,17 @@
+p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+p + p {
+    font-size: 15px;
+    font-family: montsterrat;
+}
+a {
+    color: black;
+    text-decoration: none ;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}

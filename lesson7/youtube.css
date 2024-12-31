@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 300px;
+    display: block;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
