@@ -6,117 +6,121 @@
     <title>Document</title>
 </head>
 <style>
-    div {
-        width: 200px;
-        border: 1px solid gray;
-        border-radius: 2px;
-        height:250px;
-        display: inline-block;
-        margin-left: 10px;
+    * {
+        margin: 0px;
+        padding: 0;
     }
-    img {
-        width: 200px;
-        margin-bottom:12px;
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px; 
     }
-    p {
-        font-weight: bold;
-        margin-top: 0;
-        margin-bottom: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
+    .profile {
+        width: 100%;
+
     }
-    p + p {
+    .fb-name {
+        font-family: Arial;
         font-size: 14px;
-        font-weight: normal;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .friend-profile {
+        width: 40px;
+        height: 40px;
+        border-radius: 25px;
+        margin-top: 10px;
+        display: inline-block;
+        margin-left: 5px;
+        align-items: center;
+    }
+    .friend-mutual {
+        display:inline-block;
+        margin-left: 5px;
+        align-items: center;
+
+
     }
     button {
-        background-color: rgb(12, 12, 176);
-        color: white;
-        border: none;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        border-radius: 5px;
         margin-left: 5px;
-        margin-right: 2px;
-        margin-bottom: 5px;
-        margin-top: 5px;
-        cursor: pointer;
+        width: 100px;
+        margin-top: 10px;
+        border-radius: 2px;
+        border: none;
+        color: white;
+        background-color: rgb(34, 34, 211);
+        height: 30px;
+        font-weight: bold;
+        display: block;
     }
 </style>
 <body>
-    <div>
-        <img src="../lesson7/images (1).jpg" alt="">
-        <p>Oliver</p>
-        <p>2 mutual friends</p>
-        <button>
-            Add Friend
-        </button>
-    </div>
-    <div>
-        <img src="../lesson7/images (1).jpg" alt="">
-        <p>Oliver</p>
-        <p>2 mutual friends</p>
-        <button>
-            Add Friend
-        </button>
-    </div>
-    <div>
-        <img src="../lesson7/images (1).jpg" alt="">
-        <p>Oliver</p>
-        <p>2 mutual friends</p>
-        <button>
-            Add Friend
-        </button>
-    </div>
-    <div>
-        <img src="../lesson7/images (1).jpg" alt="">
-        <p>Oliver</p>
-        <p>2 mutual friends</p>
-        <button>
-            Add Friend
-        </button>
-    </div>
-    <div>
-        <img src="../lesson7/images (1).jpg" alt="">
-        <p>Oliver</p>
-        <p>2 mutual friends</p>
-        <button>
-            Add Friend
-        </button>
-    </div>
-    <div>
-        <img src="../lesson7/images (1).jpg" alt="">
-        <p>Oliver</p>
-        <p>2 mutual friends</p>
-        <button>
-            Add Friend
-        </button>
-    </div>
-    <div>
-        <img src="../lesson7/images (1).jpg" alt="">
-        <p>Oliver</p>
-        <p>2 mutual friends</p>
-        <button>
-            Add Friend
-        </button>
-    </div>
-    <div>
-        <img src="../lesson7/images (1).jpg" alt="">
-        <p>Oliver</p>
-        <p>2 mutual friends</p>
-        <button>
-            Add Friend
-        </button>
-    </div>
-    <div>
-        <img src="../lesson7/images (1).jpg" alt="">
-        <p>Oliver</p>
-        <p>2 mutual friends</p>
-        <button>
-            Add Friend
-        </button>
+    <div class="container">
+        <div class="cart">
+            <img class="profile" src="../lesson7/images (1).jpg" alt="">
+            <p class="fb-name">Oliver</p>
+            <img class="friend-profile" src="../lesson7/images (4).jpg" alt="">
+            <p class="friend-mutual">2 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+        <div class="cart">
+            <img class="profile" src="../lesson7/images (1).jpg" alt="">
+            <p class="fb-name">Oliver</p>
+            <img class="friend-profile" src="../lesson7/images (4).jpg" alt="">
+            <p class="friend-mutual">2 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+        <div class="cart">
+            <img class="profile" src="../lesson7/images (1).jpg" alt="">
+            <p class="fb-name">Oliver</p>
+            <img class="friend-profile" src="../lesson7/images (4).jpg" alt="">
+            <p class="friend-mutual">2 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+        <div class="cart">
+            <img class="profile" src="../lesson7/images (1).jpg" alt="">
+            <p class="fb-name">Oliver</p>
+            <img class="friend-profile" src="../lesson7/images (4).jpg" alt="">
+            <p class="friend-mutual">2 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+        <div class="cart">
+            <img class="profile" src="../lesson7/images (1).jpg" alt="">
+            <p class="fb-name">Oliver</p>
+            <img class="friend-profile" src="../lesson7/images (4).jpg" alt="">
+            <p class="friend-mutual">2 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+        <div class="cart">
+            <img class="profile" src="../lesson7/images (1).jpg" alt="">
+            <p class="fb-name">Oliver</p>
+            <img class="friend-profile" src="../lesson7/images (4).jpg" alt="">
+            <p class="friend-mutual">2 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+        <div class="cart">
+            <img class="profile" src="../lesson7/images (1).jpg" alt="">
+            <p class="fb-name">Oliver</p>
+            <img class="friend-profile" src="../lesson7/images (4).jpg" alt="">
+            <p class="friend-mutual">2 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+        <div class="cart">
+            <img class="profile" src="../lesson7/images (1).jpg" alt="">
+            <p class="fb-name">Oliver</p>
+            <img class="friend-profile" src="../lesson7/images (4).jpg" alt="">
+            <p class="friend-mutual">2 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+        <div class="cart">
+            <img class="profile" src="../lesson7/images (1).jpg" alt="">
+            <p class="fb-name">Oliver</p>
+            <img class="friend-profile" src="../lesson7/images (4).jpg" alt="">
+            <p class="friend-mutual">2 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
     </div>
 </body>
 </html>
