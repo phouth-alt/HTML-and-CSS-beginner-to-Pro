@@ -5,16 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .flexbox {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+    }
+    .column1 {
+        background-color: lightblue;
+        width: 100px;
+    }
+    .column2 {
+        background-color: lightcoral;
+        width: 200px;
+    }
+    .row2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .row2-item {
+        background-color: black;
+        color: white;
+    }
+</style>
 <body>
-    <div style="display: flex; flex-direction: row;">
-        <div style="background-color: rgb(243, 59, 129);width: 100px;">
-
-        </div>
-        <div style="background-color: bisque;display: flex;">
-            row1
-            <div style="display: flex;">
-                <div style="background-color: rgb(27, 27, 187);">row2</div>
-                <div style="background-color: aqua;">row2</div>
+    <div class="flexbox">
+        <div class="column1"></div>
+        <div class="column2">
+            <div>row1</div>
+            <div class="row2">
+                <div class="row2-item">row2</div>
+                <div class="row2-item">row2</div>
             </div>
         </div>
     </div>

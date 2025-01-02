@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        padding: 15px 10px 15px 10px;
+        border: 1px solid gray;
+        box-shadow: 1px 2px 2px 0.03;
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        
+    }
+    img {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-top: 5px;
+    }
+    span {
+        font-weight: bold;
+    }
+    div {
+        font-family: Arial;
+        font-size: 14px;
+    }
+    .video{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(204, 199, 199);
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    .video-icon {
+        background-color: rgb(224, 221, 221);
+        height: 80px;
+        width: 150px;
+        border-radius: 15px 0 0 15px;
+    }
+    .video-title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="../lesson7/images (1).jpg" alt="">
+        </div>
+        <div class="detail">
+            <div class="name"><span>supersimple.dev</span> @SuperSimpleDev</div>
+            <div class="description">What is backend web development &#63; A complet overview. New video is up!</div>
+            <div class="video">
+                <div class="video-icon">
+
+                </div>
+                <div class="video-title">
+                    <div class="youtube-link">youtube.com</div>
+                    <div class="youtube-description">Backend web development - a complete overview (2021)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

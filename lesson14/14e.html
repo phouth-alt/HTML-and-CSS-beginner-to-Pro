@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        height: 3000px;
+        padding-top: 55px;
+    }
+    .top-bar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 55px;
+        background-color: rgb(203, 234, 234);
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+    }
+    .right-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;gap: 20px;
+        padding-left: 40px;
+    }
+    .left-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-right: 40px;
+        gap: 10px;
+    }
+    button {
+       width: 90px;
+       height: 35px;
+        border-radius: 5px;
+        border: none;
+        font-weight: bold;
+    }
+    .add-button {
+        background-color: rgb(18, 25, 214);
+        color: white;
+        transition: background-color 0.3s;
+        box-shadow: 5px 10px 5px 0.03;
+    }
+    .add-button:hover {
+        background-color: rgb(35, 7, 157);
+    }
+    .add-button:active {
+        opacity: 0.8;
+    }
+    .message-button {
+        background-color: white;
+        border: 1px solid rgb(143, 142, 142);
+    }
+</style>
+<body>
+    <div class="top-bar">
+        <div class="right-section">
+            <div>
+                <img src="../lesson7/images (2).jpg" alt="">
+            </div>
+            <div>
+                Phan Phouth
+            </div>
+        </div>
+        <div class="left-section">
+            <div>
+                <button class="add-button">
+                    Add Friend
+                </button>
+            </div>
+            <div>
+                <button class="message-button">
+                    Message
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

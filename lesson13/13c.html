@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flexbox {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 400px;
+        border-radius: 3px;
+        border: 1px solid rgb(208, 207, 207);
+        box-shadow: inset 1px 2px 2px 0.05;
+    }
+    .inbox {
+        font-family: Arial;
+        font-size: 12px;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        margin-right: -30px;
+    }
+    .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 15px;
+        align-items: center;
+    }
+    p {
+        font-family: Arial;
+    }
+    .name {
+        font-weight: bold;
+        font-size: 15px;
+        margin: 0;
+    }
+    .description {
+        flex: 1;
+        margin: 0;
+        line-height: 20px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .message {
+        margin: 0;
+        font-size: 14px;
+    }
+    .time {
+        margin-left: -60px;
+        font-family: Arial;
+        font-size: 14px;
+    }
+</style>
+<body>
+    <div class="flexbox">
+        <div class="inbox">ALL INBOXES</div>
+        <div class="box"> 
+            <div class="profile">
+                <img src="../lesson7/images (1).jpg" alt="">
+            </div>
+            <div class="about-me">
+                <p class="name">Chewy Promotions</p>
+                <p class="description">Biggest sales of the year!</p>
+                <p class="message">Hey there! We're writing to tell you about our...</p>
+            </div>
+            <div class="time">
+                4:58 PM
+            </div>
+        </div>
+        <div class="box"> 
+            <div class="profile">
+                <img src="../lesson7/images (2).jpg" alt="">
+            </div>
+            <div class="about-me">
+                <p class="name">Chewy Promotions</p>
+                <p class="description">Biggest sales of the year!</p>
+                <p class="message">Hey there! We're writing to tell you about our...</p>
+            </div>
+            <div class="time">
+                4:58 PM
+            </div>
+        </div>
+        <div class="box"> 
+            <div class="profile">
+                <img src="../lesson7/images (3).jpg" alt="">
+            </div>
+            <div class="about-me">
+                <p class="name">Chewy Promotions</p>
+                <p class="description">Biggest sales of the year!</p>
+                <p class="message">Hey there! We're writing to tell you about our...</p>
+            </div>
+            <div class="time">
+                4:58 PM
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        height: 3000px;
+    }
+
+    .cart {
+        position: relative;
+        width: 200px;
+        border: 1px solid gray;
+        display: block;
+    }
+    .discount {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: black;
+        color: white;padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+    img {
+        width: 100%;
+    }
+    .add-cart {
+        background-color: rgb(241, 241, 241);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+    }
+    button {
+        position: absolute;
+        top: 10px;
+        left: 55px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: rgb(236, 209, 52);
+        color: rgb(50, 49, 49);
+        border: none;
+        border-radius: 2px
+    }
+</style>
+<body>
+    <div class="cart">
+        <img src="../icons/images.jpg" alt="">
+        <div class="discount">
+            20&#37; OFF
+        </div>
+        <div class="add-cart">
+            <button>
+                Add to Cart
+            </button>
+        </div>
+    </div>
+</body>
+</html>

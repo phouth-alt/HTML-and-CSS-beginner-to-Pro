@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        height: 3000px;
+
+    }
+    img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .first-side-bar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(55, 53, 53);
+        width: 70px;
+        padding-top: 10px;
+    }
+    .second-side-bar {
+        position: fixed;
+        top: 0;
+        left: 70px;
+        bottom: 0;
+        background-color: rgb(75, 72, 72);
+        width: 200px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .text {
+        line-height: 30px;
+        color: rgb(235, 229, 229);
+        font-family: Arial;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        gap: 140px;
+    }
+    button {
+        background-color: rgb(75, 72, 72);
+        border: none;
+        color: rgb(178, 173, 173);
+        font-size: 20px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="first-side-bar">
+            <div>
+                <img src="../lesson7/images (1).jpg" alt="">
+            </div>
+            <div>
+                <img src="../lesson7/images (2).jpg" alt="">
+            </div>
+            <div>
+                <img src="../lesson7/images (3).jpg" alt="">
+            </div>
+        </div>
+        <div class="second-side-bar">
+            <div class="text">
+                <div>
+                    INFO
+                </div>
+                <div>
+                    <button>+</button>
+                </div>
+            </div>
+            <div class="text">
+                # new-videos
+            </div>
+            <div class="text">
+                # updates
+            </div>
+            <div class="text">
+                # faq
+            </div>
+        </div>
+    </div>
+</body>
+</html>
